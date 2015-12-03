@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git+https://github.com/Krisa/node-retries' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+https://github.com/Krisa/node-retries
+8 silly fetchOtherPackageData git+https://github.com/Krisa/node-retries
+9 silly cache add args [ 'git+https://github.com/Krisa/node-retries', null ]
+10 verbose cache add spec git+https://github.com/Krisa/node-retries
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+https://github.com/Krisa/node-retries',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+https://github.com/Krisa/node-retries',
+11 silly cache add   spec: 'git+https://github.com/Krisa/node-retries.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:Krisa/node-retries.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/Krisa/node-retries.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/Krisa/node-retries.git',
+11 silly cache add      gitUrl: 'git://github.com/Krisa/node-retries.git',
+11 silly cache add      shortcut: 'github:Krisa/node-retries',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/Krisa/node-retries/master/package.json' } }
+12 verbose addRemoteGit caching git+https://github.com/Krisa/node-retries
+13 verbose addRemoteGit git+https://github.com/Krisa/node-retries.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/Krisa/node-retries.git via git+https://github.com/Krisa/node-retries.git
+15 verbose tryClone git-https-github-com-Krisa-node-retries-git-2bf06001562743cef3f79dc471c9f68f not in flight; caching
+16 verbose makeDirectory /Users/christophevidal/.npm/_git-remotes creation not in flight; initializing
+17 silly makeDirectory /Users/christophevidal/.npm/_git-remotes uid: 502 gid: 20
+18 info git [ 'clone',
+18 info git   '--template=/Users/christophevidal/.npm/_git-remotes/_templates',
+18 info git   '--mirror',
+18 info git   'https://github.com/Krisa/node-retries.git',
+18 info git   '/Users/christophevidal/.npm/_git-remotes/git-https-github-com-Krisa-node-retries-git-2bf06001562743cef3f79dc471c9f68f' ]
+19 verbose mirrorRemote git+https://github.com/Krisa/node-retries.git git clone https://github.com/Krisa/node-retries.git
+20 verbose setPermissions git+https://github.com/Krisa/node-retries.git set permissions on /Users/christophevidal/.npm/_git-remotes/git-https-github-com-Krisa-node-retries-git-2bf06001562743cef3f79dc471c9f68f
+21 verbose resolveHead git+https://github.com/Krisa/node-retries.git original treeish: master
+22 info git [ 'rev-list', '-n1', 'master' ]
+23 silly resolveHead git+https://github.com/Krisa/node-retries.git resolved treeish: b842ffeea6cbcc259e71e883cd4e5685babda815
+24 verbose resolveHead git+https://github.com/Krisa/node-retries.git resolved Git URL: git+https://github.com/Krisa/node-retries.git#b842ffeea6cbcc259e71e883cd4e5685babda815
+25 silly resolveHead Git working directory: /var/folders/pv/72hgkw1s3wbgq5g9qbdqvgrr0000gp/T/npm-16060-42a42ebe/git-cache-bca8e7fcdb9aaaa18a135c725456f393/b842ffeea6cbcc259e71e883cd4e5685babda815
+26 info git [ 'clone',
+26 info git   '/Users/christophevidal/.npm/_git-remotes/git-https-github-com-Krisa-node-retries-git-2bf06001562743cef3f79dc471c9f68f',
+26 info git   '/var/folders/pv/72hgkw1s3wbgq5g9qbdqvgrr0000gp/T/npm-16060-42a42ebe/git-cache-bca8e7fcdb9aaaa18a135c725456f393/b842ffeea6cbcc259e71e883cd4e5685babda815' ]
+27 verbose cloneResolved git+https://github.com/Krisa/node-retries.git clone Cloning into '/var/folders/pv/72hgkw1s3wbgq5g9qbdqvgrr0000gp/T/npm-16060-42a42ebe/git-cache-bca8e7fcdb9aaaa18a135c725456f393/b842ffeea6cbcc259e71e883cd4e5685babda815'...
+27 verbose cloneResolved done.
+28 info git [ 'checkout', 'b842ffeea6cbcc259e71e883cd4e5685babda815' ]
+29 verbose checkoutTreeish git+https://github.com/Krisa/node-retries.git checkout Note: checking out 'b842ffeea6cbcc259e71e883cd4e5685babda815'.
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+29 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+29 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+29 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish   git checkout -b <new-branch-name>
+29 verbose checkoutTreeish
+29 verbose checkoutTreeish HEAD is now at b842ffe... initial commit
+30 verbose addLocalDirectory /Users/christophevidal/.npm/needle-retries/1.0.0/package.tgz not in flight; packing
+31 verbose tar pack [ '/Users/christophevidal/.npm/needle-retries/1.0.0/package.tgz',
+31 verbose tar pack   '/var/folders/pv/72hgkw1s3wbgq5g9qbdqvgrr0000gp/T/npm-16060-42a42ebe/git-cache-bca8e7fcdb9aaaa18a135c725456f393/b842ffeea6cbcc259e71e883cd4e5685babda815' ]
+32 verbose tarball /Users/christophevidal/.npm/needle-retries/1.0.0/package.tgz
+33 verbose folder /var/folders/pv/72hgkw1s3wbgq5g9qbdqvgrr0000gp/T/npm-16060-42a42ebe/git-cache-bca8e7fcdb9aaaa18a135c725456f393/b842ffeea6cbcc259e71e883cd4e5685babda815
+34 verbose addLocalTarball adding from inside cache /Users/christophevidal/.npm/needle-retries/1.0.0/package.tgz
+35 verbose addRemoteGit data._from: git+https://github.com/Krisa/node-retries.git
+36 verbose addRemoteGit data._resolved: git+https://github.com/Krisa/node-retries.git#b842ffeea6cbcc259e71e883cd4e5685babda815
+37 silly cache afterAdd needle-retries@1.0.0
+38 verbose afterAdd /Users/christophevidal/.npm/needle-retries/1.0.0/package/package.json not in flight; writing
+39 verbose afterAdd /Users/christophevidal/.npm/needle-retries/1.0.0/package/package.json written
+40 silly install normalizeTree
+41 silly loadCurrentTree Finishing
+42 silly loadIdealTree Starting
+43 silly install loadIdealTree
+44 silly cloneCurrentTree Starting
+45 silly install cloneCurrentTreeToIdealTree
+46 silly cloneCurrentTree Finishing
+47 silly loadShrinkwrap Starting
+48 silly install loadShrinkwrap
+49 silly loadShrinkwrap Finishing
+50 silly loadAllDepsIntoIdealTree Starting
+51 silly install loadAllDepsIntoIdealTree
+52 silly rollbackFailedOptional Starting
+53 silly rollbackFailedOptional Finishing
+54 silly runTopLevelLifecycles Starting
+55 silly runTopLevelLifecycles Finishing
+56 silly install printInstalled
+57 verbose stack Error: Refusing to install needle-retries as a dependency of itself
+57 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:40:14)
+57 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+57 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+57 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+57 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:15:5
+57 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+57 verbose stack     at Array.forEach (native)
+57 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+57 verbose stack     at Array.forEach (native)
+57 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+58 verbose cwd /Users/christophevidal/needle-retries
+59 error Darwin 15.0.0
+60 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "git+https://github.com/Krisa/node-retries"
+61 error node v5.0.0
+62 error npm  v3.3.6
+63 error code ENOSELF
+64 error Refusing to install needle-retries as a dependency of itself
+65 error If you need help, you may report this error at:
+65 error     <https://github.com/npm/npm/issues>
+66 verbose exit [ 1, true ]
