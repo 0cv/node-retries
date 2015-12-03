@@ -1,0 +1,28 @@
+{
+  "name": "needle-retries",
+  "version": "1.0.0",
+  "description": "A module based on Needle and Retry to attempt a new request whenever it fails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Krisa/node-retries.git"
+  },
+  "keywords": [
+    "needle",
+    "retry",
+    "http",
+    "request"
+  ],
+  "author": "Christophe Vidal <christophe.vidal.1983@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krisa/node-retries/issues"
+  },
+  "homepage": "https://github.com/Krisa/node-retries",
+  "dependencies": {
+    "retry": "^0.8.0"
+  }
+}
